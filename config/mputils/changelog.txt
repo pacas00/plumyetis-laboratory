@@ -1,0 +1,670 @@
+Welcome to Mech & Magic! 
+
+Enjoy the new mods! As always be sure to submit bugs to our github. Link to github can be found in the pause menu on the right hand side. 
+Join our discord via the main menu button!
+
+Version: 3.0.6
+
+Enhancements or Changes:
+NEW recipe for Cyclic Item Pipe
+NEW recipe for Cyclic Energy Pipe
+NEW recipe for Cyclic Fluid Pipe
+NEW recipe for Cyclic Fluid Pump
+NEW recipe for Cyclic Fluid Pipes
+NEW recipe for Cyclic Fluid Pipes
+NEW recipe for Cyclic Guide Book
+Fixed being in creative if cheats were enabled on single player
+Fixed Arcane Bore crash(#59)
+REMOVED the pop up changelog. No one seems to read it anyways but all complain :/ Still available in menu.
+Lowered Wild Boar group and spawn rates
+
+Note to server owners - You SHOULD be replacing your config folder and scripts folder on every update. Backing up any config changes you have made is up to you. 
+
+Added Mods: 
+Chameleon
+Integration Foregoing
+Storage Drawers
+
+Removed Mods:
+Animalium
+Hammer Core - Not needed - Causes server disconnect issues
+
+Updated Mods:
+Actually Additions
+Blood Magic
+Chisel and Bits
+Connected Textures Mod
+Cooking For Blockheads
+Cyclic 
+Cyclops Core
+Ender Utilities
+EvilCraft
+Extra Utilities 2
+FTBLib
+FTBUtils
+Guide API
+Horse Power
+Immersive Engineering
+Industrial Foregoing
+Integrated Dynamics
+Just Enough Resources 
+McjtyLib
+ModTweaker
+OreGen
+Quantum Storage
+Random Things
+RFTools
+Scaling Health
+Signals
+Silent Gems
+Silent Lib
+Steve's Carts Reborn
+Tesla Core
+Thaumcraft
+Waystones
+XLFood Mods
+
+********************************************************************************
+
+***End of Entry***
+
+Version: 3.0.5
+
+Enhancements or Changes:
+Fixed potential crash on world load due to render issues with Horses
+Fixed a Typo in loading tips
+Added new tip to loading tips: "Set your commonly used commands on the command panel (default key numpad " . " )"
+BuildCraft Oil Sprouts no longer generate - Oil lakes are still present
+Piranhas should NOW no longer be spawning in Oceans. If you see them in oceans near the coasts its probably because some of that coast is River which they will spawn in
+Renamed Submarine Sandwich to 'Young's Sandwich'
+Renamed Coffee Maker to "Matty's Brand Coffee Maker'
+Decreased spawn rate of Deer
+Increased spawn rate of Sprouts
+Increased Polar Bear spawn rate in  "cold" Biomes. 
+Increased Fairy Pool chance
+
+Note to server owners - You SHOULD be replacing your config folder and scripts folder on every update. Backing up any config changes you have made is up to you. 
+
+Updated Mods:
+Actually Additions
+Astikoor Horse Carts
+Astral Sorcery
+Connected Textures Mod
+Cyclic
+EnderCore
+EnderIO
+EnderStorage
+Evil Craft
+Flexible Tools
+HammerCore
+Industrial Foregoing
+JEI
+Random Things
+Reborn Core
+Signals
+Silent Lib
+Steve's Carts
+ThaumCraft
+UniDict
+Vampirism
+Veining
+XL Food Mod
+********************************************************************************
+
+***End of Entry***
+
+Version: 3.0.4 
+
+Enhancements or Changes:
+Fixed Gravel Ores Unifying into ore blocks
+Fixed Amber(all gem) types from Unifying
+Added Coal to Coal Dust recipe to Horse Power
+Added Coal Block to Coal Dust recipe to Horse Power
+Raised Max Health to 78
+Piranhas now only spawn in Rivers, Jungles, Swamps, and Swamplands
+Wild Boars now spawn in the Overworld(0) in any biome on grass. 
+Ocelots now spawn in the above listed biomes as well as in Taiga, Cold Taiga, and Ice Plains
+Parrots now spawn in Savannahs, Jungle Edge/M, and Jungle/M
+
+Note to server owners - You SHOULD be replacing your config folder and scripts folder on every update. Backing up any config changes you have made is up to you. 
+
+Added Mods: 
+In-Control
+Progressive Bosses
+
+Updated Mods:
+Aquaculture
+Astral Sorcery
+AutoRegLib
+Bookshelf
+Brandon's Core
+CodeChicken Lib
+Cooking for Blockheads
+CraftTweaker
+Cyclic
+Draconic Evolution
+Dark Utilities
+Ender Storage
+Ender Utilities
+EnderCore
+EvilCraft
+ExtraCells2
+Flexible Tools
+McJtyLib
+Quark
+Random Things
+Reborn Core
+Reliquary
+RFTools
+Scaling Health
+ShetiPhianCore
+Silent Lib
+Steve's Carts Reborn
+Totemic
+UniDict
+********************************************************************************
+
+***End of Entry***
+
+Version: 3.0.3
+
+Enhancements or Changes:
+
+
+Note to server owners - You SHOULD be replacing your config folder and scripts folder on every update. Backing up any config changes you have made is up to you. 
+
+Updated Mods:
+
+Removed Mods:
+Chococraft - Increasing issues, player disconnects on servers, client and server crashes. Not actively being developed so this is the best course of action. 
+
+
+********************************************************************************
+
+***End of Entry***
+
+Version: 3.0.2
+
+Enhancements or Changes:
+Fixed Aquamarine and Silent's Gems Aquamarine gems from unifying (#46)
+Rolled back Dynamic Lights version to solve crash issue (#192)
+
+Note to server owners - You SHOULD be replacing your config folder and scripts folder on every update. Backing up any config changes you have made is up to you. 
+
+Updated Mods:
+Forge
+
+********************************************************************************
+
+***End of Entry***
+
+Version: 3.0.1
+
+Enhancements or Changes:
+Fixed a naming error in water strainers loot for enchanted books
+Added several new scripts
+Turned OpenBlocks graves on
+Fixed chiseled blocks from auto unifying on place or chisel GUI removal (#43)
+Console spam from cyclic fixed (#42)
+Added all small coal types to Fuel Canister dictionary
+
+Note to server owners - Be sure YOU are changing out these changed configs above. Simply move over the entire config folder like you would the mods folder. It is up to you to update your server accordingly to keep the pack playing as it is designed. You are free to make your own config changes on the server. Most of what will change from us is basic mechanics, drop rates, mob difficulties, etc. Nothing that may break your server or its rules. 
+
+Added Mods: 
+Better FPS
+More Furnaces
+Lapis Stays in the Enchanting Table
+
+Removed Mods: 
+Corail Tombstone
+
+Updated Mods:
+Aquaculture
+Bookshelf
+Chisels & Bits
+CoFH Core
+CoFH World
+ConnectedTexturesMod
+Cooking for Blockheads
+CTD Core
+Cyclic
+Cyclops Core
+EnderCore
+Ender IO
+Ender Storage
+EvilCraft
+ExtraCells2
+Extreme Reactors
+Flexible Tools
+FoamFix
+Hammer Core
+Horse Power
+Immersive Tech
+Industrial Foregoing
+Integrated Dynamics
+Iron Backpacks
+Just Enough Items (JEI)
+LimeLib
+McJtyLib
+MTLib
+Random Things
+Reborn Core
+Redstone Arsenal
+Redstone Flux
+RFTools
+Soot
+Silent's Gems
+Silent Lib
+Steve's Carts Reborn
+Thaumcraft
+The One Probe
+Thermal Dynamics
+Thermal Expansion
+Thermal Foundation
+The Twilight Forest
+XL Food Mod
+ZeroCore
+
+********************************************************************************
+
+***End of Entry***
+
+Version: 3.0.0
+
+WARNING: This update will break Viescraft airships in the world. The mod was a complete rewrite, made better, and simpler.  Visit here for more information: https://minecraft.curseforge.com/projects/viescraft-airships/files/2561951
+
+Enhancements or Changes:
+Updated Forge - 2675
+Added Hemp to String OreDict
+Added Metal Press recipes for all AE2 inscribers
+Added Minecraft Mooshroom to HorsePower Mob List
+Added Totemic Buffalo to HorsePower Mob List
+Added Twilight Forest Deer to HorsePower Mob List
+Added Twilight Forest Wild Boar to HorsePower Mob List
+Added Twilight Forest Big Horn Ram to HorsePower Mob List
+Added all FIsh from Aqualculture to Water Strainer loot tables by rarity and weight
+Added various loot from Aquaculture to Water Strainer loot tables by rarity and weight
+Added various resources from other mods to Water Strainer loot tables by rarity and weight
+Added Tips in loading screens about Aquaculture and Water Strainer compatibility
+Killing Blight mobs(purple flames) will decrease 5 difficulty per kill
+Killing Boss mobs will decrease 10 difficulty per kill
+Killing any hostile mobs will decrease 0.80 per kill(player kills only)
+Difficulty multiplier depending on lunar phase of the moon set to true
+Removed the chance for mobs to spawn with Invisibility
+Changed mob health scaling to 'ADD' which will add health to a mob based on the players local difficulty
+Added a recipe for Enchanted Heart which lowers difficulty by 30 levels when consumed
+Added a recipe for Cursed Heart which raises difficulty by 30 levels when consumed
+Raised the rarity of Astral Sorcery world generation
+
+
+Note to server owners - Be sure YOU are changing out these changed configs above. Simply move over the entire config folder like you would the mods folder. It is up to you to update your server accordingly to keep the pack playing as it is designed. You are free to make your own config changes on the server. Most of what will change from us is basic mechanics, drop rates, mob difficulties, etc. Nothing that may break your server or its rules. 
+
+Added Mods: 
+Aquaculture
+Bauble of Undying
+Water Strainer - Loved this mod I can't believe we forgot it!
+
+Removed Mods:
+Lagg Goggles - Better suited as something each server owner decides to add. 
+
+Updated Mods:
+Forge
+Corail Tombstone
+CTD Core
+Cyclic
+Hammer Core
+Industrial Foregoing
+Just Enough Items (JEI)
+Reborn Core
+SecretRoomsMod
+Steve's Carts Reborn
+UniDict
+ViesCraft - Airships!
+
+********************************************************************************
+
+
+
+
+***End of Entry***
+
+
+
+
+Version: 2.0.15
+
+Enhancements or Changes:
+Updated Forge - 2675
+Added Minecraft Mooshroom to HorsePower Mob List
+Added Totemic Buffalo to HorsePower Mob List
+Added Twilight Forest Deer to HorsePower Mob List
+Added Twilight Forest Wild Boar to HorsePower Mob List
+Added Twilight Forest Big Horn Ram to HorsePower Mob List
+Added all FIsh from Aqualculture to Water Strainer loot tables by rarity and weight
+Added various loot from Aquaculture to Water Strainer loot tables by rarity and weight
+Added various resources from other mods to Water Strainer loot tables by rarity and weight
+Added Tips in loading screens about Aquaculture and Water Strainer compatibility
+Killing Blight mobs(purple flames) will decrease 5 difficulty per kill
+Killing Boss mobs will decrease 10 difficulty per kill
+Killing any hostile mobs will decrease 0.2 per kill(player kills only)
+Difficulty multiplier depending on lunar phase of the moon set to true. 
+
+Note to server owners - Be sure YOU are changing out these changed configs above. Simply move over the entire config folder like you would the mods folder. It is up to you to update your server accordingly to keep the pack playing as it is designed. You are free to make your own config changes on the server. Most of what will change from us is basic mechanics, drop rates, mob difficulties, etc. Nothing that may break your server or its rules. 
+
+Added Mods: 
+Aquaculture
+Bauble of Undying
+Water Strainer - Loved this mod I can't believe we forgot it!
+
+
+Updated Mods:
+Forge
+Corail Tombstone
+Cyclic
+Just Enough Items (JEI)
+SecretRoomsMod
+The Twilight Forest
+
+********************************************************************************
+***End of Entry***
+
+
+Version: 2.0.13
+
+Enhancements or Changes:
+Added several materials to Cyclic's Uncrafting Grinder blacklist to avoid certain dupes.
+Hid Embers ores from JEI list.
+Hid Immersive Engineering ores from JEI list.
+Hid CoFH ores from JEI list.
+Altered Recipe for Reliquary's Phoenix Down
+Altered recipe for Scaling Health Heart Containers.
+Disabled Cyclic Heart Containers.
+
+
+Added Mods:
+Totemic
+
+
+Updated Mods:
+Actually Additions
+Buildcraft
+Cyclic
+Login Shield
+Reliquary
+TorchMaster
+
+********************************************************************************
+***End of Entry***
+
+
+Enhancements or Changes: 
+Changed More Overlays from Optional to standard. 
+Disabled most Cyclic Nether/End ores. Most were ores that have no use in the pack anyways. 
+Lowered density of Hunter camps. 
+Lowered Vampire spawn change. 
+
+Added Mods: 
+Anamalium - Pack could use some critters! 
+InstantUnify - Works alongside UniDict to prioritize resources to one type, OreGen. This will instantly unify dropped and picked up items. 
+
+
+Updated Mods: 
+Animalium 
+Astikoor Horse Carts 
+Corail Tombstone 
+Hammer Core 
+Immersive Engineering 
+ModTweaker 
+OreGen 
+Random Things 
+Realistic Item Drops 
+Vampirism 
+Veining 
+
+******************************************************************************** 
+***End of Entry***
+
+
+
+Version: 2.0.11
+
+Enhancements or Changes:
+Added a 50% chance to receive an Enchanted Key on death to teleport to your grave.
+
+
+Added Mods:
+EnderCore
+EnderIO
+ExtraCells2
+Integrated Dynamics
+Lag Goggles - This is a mod that can be used by players to check lag in their own chunks. This will allow you to better 
+              understand what kinds of items cause TPS drops. Very helpful for servers. I advise everyone to at least check it 
+              out. 
+              Please Note that there are two versions. One for Forge servers one for SpongeForge servers. If you run a server
+              make sure to click the correct version.
+
+
+Updated Mods:
+Astral Sorcery
+AutoRegLib
+Blood Magic
+CodeChicken Lib 1.8.+	
+Corail Tombstone
+EnderCore
+EvilCraft
+Flexible Tools
+Hammer Core
+Immersive Tech
+Industrial Foregoing
+Just Enough Items (JEI)
+ModTweaker
+Reborn Core
+Thaumcraft
+TorchMaster
+UniDict
+Vampirism
+Waystones
+
+Note: You may see increased load times from here on out due to some of the newer additions. 
+      The more mods a pack has the more to Initialize and load. The more content in those mods the longer the mod takes to 
+      initialize and load models.
+
+********************************************************************************
+***End of Entry***
+
+
+
+Version: 2.0.10
+
+Enhancements or Changes:
+Thaumcraft retrogen has been enabled by default. This should disable after the next client or server restart. 
+If you wish to re-enable this at anytime to regenerate TC resources in your world you can do so in thaumcraft_world.cfg
+Removed Cyclic Heart Canisters to avoid conflict with Scaling Health. (#32)
+Fixed recipe conflict with AE2 disabled wooden gear and all others. (#30)
+Fixed Nether Star Page 2 crash. (#28)
+
+
+
+Added Mods:
+Thaumcraft 6
+Vampirism Integrations
+
+
+Updated Mods:
+forge-1.12.2-14.23.3.2655-universal
+Astral Sorcery
+Blood Magic
+Bookshelf
+Botania
+Brandon's Core
+CodeChicken Lib 1.8.+
+CoFH Core
+CraftTweaker
+Draconic Evolution
+Hammer Core
+Immersive Engineering
+Industrial Foregoing
+Iron Backpacks
+Just Enough Items (JEI)
+QuantumStorage
+Redstone Arsenal
+SecretRoomsMod
+Smooth Font
+Tesla Core Lib
+Thaumcraft
+Thermal Dynamics
+Thermal Expansion
+Thermal Foundation
+Vampirism 
+Waystones
+
+********************************************************************************
+***End of Entry***
+
+
+Version: 2.0.9
+
+Enhancements or Changes:
+Changed Splash Screen background color
+Fixed crash on 'K' keypress (#29)
+Remapped Quark lock orientation to up arrow
+
+
+Added Mods:
+AE2 Stuff
+Random Things
+
+
+Updated Mods:
+Actually Additions
+Blood Magic
+Colossal Chests
+Corail Tombstone
+CraftTweaker
+CTD Core
+Cyclic
+Dynamic Lights
+EvilCraft
+Industrial Foregoing
+Just Enough Items (JEI)
+ModTweaker
+Reborn Core
+Veining
+
+********************************************************************************
+***End of Entry***
+
+
+Version: 2.0.8
+
+Enhancements or Changes:
+More Main Menu changes
+
+Added Mods:
+Buildcraft single jar - Removed what modular jars we had and replaced with the full BC jar.
+Realistic Item Drops
+
+Updated Mods:
+Corail Tombstone
+Dynamic Lights
+Enderfuge
+EvilCraft
+Extra Utilities
+FTB Utilities
+FTBLib
+Hammer Core
+Immersive Tech
+Industrial Foregoing
+Just Enough Items (JEI)
+Reborn Core
+Reliquary v1.3
+Scaling Health
+SecretRoomsMod
+Steve's Carts Reborn
+Thermal Foundation
+YABBA
+
+********************************************************************************
+***End of Entry***
+
+
+Version: 2.0.7
+
+Enhancements or Changes:
+Main Menu
+Buttons
+FML Loadin Screen changes
+Twilight Forrest Mobs can no longer spawn as Blighted mobs to fix an issue where some mobs would be invincible. 
+
+Added Mods:
+Blood Magic
+Buildcraft - Core
+Buildcraft - Builders
+Buildcraft - Factory
+Buildcraft - Robotics
+Buildcraft - Transport
+GuideAPI
+MPBasics
+MPUtils
+Smooth Font
+Soot
+
+
+Updated Mods:
+Forge
+Actually Addition
+Applied Energistics 2
+AutoRegLib
+Bookshelf
+ChiselChisels & Bits
+CodeChicken Lib 1.8.+
+CoFH Core
+Colossal Chests
+Cooking for Blockheads
+Corail Tombstone
+Crop-Eating Animals
+CTD Core
+Cyclic
+Cyclops Core
+Dark Utilities
+Draconic Evolution
+Dynamic Lights
+Ender Utilities
+EvilCraft
+Extreme Reactors
+Hammer Core
+Horse Power
+Immersive Engineering
+Immersive Petroleum
+Immersive Tech
+Industrial Foregoing
+LimeLib
+Mcjtlib
+MTLib
+OpenComputers
+OreGen
+p455w0rd's Library
+Platforms
+QuantumStorage
+Quark
+Reborn Core
+Redstone Arsenal	
+Reliquary v1.3
+RFTools
+Scaling Health
+SecretRoomsMod
+Silent Lib
+Silent's Gems
+Tesla Core Lib
+Thermal Dynamics
+Thermal Expansion
+Thermal Foundation
+The One Probe
+UniDict
+Veining
+Waystones
+Xaero's Minimap
+XL Food Mod
+ZeroCore
+********************************************************************************
+***End of Entry***

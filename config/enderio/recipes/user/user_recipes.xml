@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+  <recipe name="Simple Chassis" required="true">
+    <crafting>
+      <grid>
+        <item name="barsIron"/><item name="IRON"/><item name="barsIron"/>
+        <item name="IRON"/><item name="GEAR_STONE"/><item name="IRON"/>
+        <item name="barsIron"/><item name="IRON"/><item name="barsIron"/>
+      </grid>
+      <output name="SIMPLE_CHASSIS"/>
+    </crafting>
+  </recipe>
+  
+  <recipe name="Chassis">
+    <alloying energy="3600" exp="1">
+      <input name="SIMPLE_CHASSIS"/>
+      <input name="dyeMachine"/>
+      <output name="CHASSIS"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Enhanced Chassis">
+    <alloying energy="3600" exp="1">
+      <input name="END_STEEL_CHASSIS"/>
+      <input name="dyeEnhancedMachine"/>
+      <output name="ENHANCED_CHASSIS"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Soul Chassis">
+    <alloying energy="3600" exp="1">
+      <input name="SIMPLE_CHASSIS"/>
+      <input name="dyeSoulMachine"/>
+      <output name="SOUL_CHASSIS"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="End Steel Chassis" required="true">
+    <crafting>
+      <grid>
+        <item name="enderio:block_end_iron_bars"/><item name="ingotEndSteel"/><item name="enderio:block_end_iron_bars"/>
+        <item name="ingotEndSteel"/><item name="POWDER_INFINITY"/><item name="ingotEndSteel"/>
+        <item name="enderio:block_end_iron_bars"/><item name="ingotEndSteel"/><item name="enderio:block_end_iron_bars"/>
+      </grid>
+      <output name="END_STEEL_CHASSIS"/>
+    </crafting>
+  </recipe>
+  
+  <recipe name="Machine Dye">
+    <crafting>
+      <grid>
+        <item name="dustLapis"/><item name="POWDER_QUARTZ"/><item name="dyeGreen"/>
+        <item name="POWDER_QUARTZ"/><item name="POWDER_INFINITY"/><item name="POWDER_QUARTZ"/>
+        <item name="dyeGreen"/><item name="POWDER_QUARTZ"/><item name="dustLapis"/>
+      </grid>
+      <output name="dyeMachine" amount="6"/>
+    </crafting>
+  </recipe>
+  
+  <recipe name="Enhanced Machine Dye">
+    <crafting>
+      <grid>
+        <item name="POWDER_PULSATING"/><item name="POWDER_QUARTZ"/><item name="POWDER_PULSATING"/>
+        <item name="POWDER_QUARTZ"/><item name="dyeBlack"/><item name="POWDER_QUARTZ"/>
+        <item name="POWDER_PULSATING"/><item name="POWDER_QUARTZ"/><item name="POWDER_PULSATING"/>
+      </grid>
+      <output name="dyeEnhancedMachine" amount="4"/>
+    </crafting>
+  </recipe>
+
+  <recipe name="Soul Machine Dye">
+    <crafting>
+      <grid>
+        <item name="dustSoularium"/><item name="POWDER_QUARTZ"/><item name="dyeBrown"/>
+        <item name="POWDER_QUARTZ"/><item name="dyeBlack"/><item name="POWDER_QUARTZ"/>
+        <item name="dyeBrown"/><item name="POWDER_QUARTZ"/><item name="dustSoularium"/>
+      </grid>
+      <output name="dyeSoulMachine" amount="6"/>
+    </crafting>
+  </recipe>
+
+</enderio:recipes>

@@ -1,0 +1,211 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "mainmenu:textures/logo.png",
+            "posX" : -125,
+            "posY" : 2,
+            "width" : 250,
+            "height" : 85,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : -40,
+            "width" : 100,
+            "height" : 20,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : 0,
+            "posY" : -40,
+            "width" : 100,
+            "height" : 20,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : -100,
+            "posY" : 20,
+            "width" : 100,
+            "height" : 20,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : 0,
+            "posY" : 20,
+            "width" : 100,
+            "height" : 20,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : -80,
+            "posY" : 40,
+            "width" : 160,
+            "height" : 20,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : -100,
+            "posY" : 40,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : 80,
+            "posY" : 40,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "center",
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        },
+		
+		"server":
+        {
+            "text" : "PlumYeti Server",
+            "posX" : -100,
+            "posY" : -20,
+            "width" : 200,
+            "height" : 20,
+			"alignment" : "center",
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "plumyeti.ddns.net"
+            }
+        },
+		
+		
+		"twitter":
+        {
+            "text" : "Twitter",
+            "posX" : -100,
+            "posY" : 0,
+            "width" : 100,
+            "height" : 20,
+			"alignment" : "center",
+            "action": {
+                "type" : "openLink",
+                "link" : "https://twitter.com/PlumYeti"
+			}
+        },
+
+        "discord":
+        {
+            "text" : "Discord",
+            "posX" : 0,
+            "posY" : 0,
+            "width" : 100,
+            "height" : 20,
+			"alignment" : "center",
+            "action": {
+                "type" : "openLink",
+                "link" : "https://discord.gg/6bxA5TY"
+			}
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
+            "posX" : -165,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        },
+        
+		"forge":
+        {
+            "text" : "Forge #forgeversion#",
+            "posX" : 2,
+            "posY" : -20,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+
+        "pack":
+        {
+            "text" : "Pack Version: 1.0.0",
+            "posX" : 2,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+        
+        "background":
+		{
+			"image" : "mainmenu:textures/bg.png",
+			"alignment" : "middle"
+		}
+    }
+}
