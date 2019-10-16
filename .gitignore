@@ -7,3 +7,17 @@ minecraftinstance.json
 modlist.html
 *.jar
 *.dll
+logs/
+journeymap/
+.ReAuth.cfg
+crafttweaker.log
+options.txt
+patchouli_data.json
+servers.dat
+usercache.json
+usernamecache.json
+.mixin.out/
+crash-reports/
+local/
+BotaniaVars.dat
+astralsorcery/
