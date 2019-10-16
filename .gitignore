@@ -7,3 +7,4 @@ minecraftinstance.json
 modlist.html
 *.jar
 *.dll
+.vscode/
