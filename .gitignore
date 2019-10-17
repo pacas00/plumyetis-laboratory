@@ -1,7 +1,10 @@
+# Dev Env
+.vscode/
+
+# Modcraft folders / files we dont want in git
 mods/
 resourcepacks/
 saves/
-.vscode/
 logs/
 local/
 journeymap/
@@ -19,11 +22,12 @@ servers.dat
 usercache.json
 usernamecache.json
 
-
+# Specific files we don't want in git
 config/AppliedEnergistics2/VersionChecker.cfg
 config/jei/bookmarks.ini
 config/jei/worldSettings.cfg
 
+# File extensions we don't want in git
 *.jar
 *.dll
 *.log
@@ -31,3 +35,4 @@ config/jei/worldSettings.cfg
 # Dev Mod Configs
 config/InvTweaks*
 config/tellme.cfg
+config/tellme/
