@@ -27,7 +27,7 @@ config/AppliedEnergistics2/aerecipes
 config/AppliedEnergistics2/items.csv
 config/jei/bookmarks.ini
 config/jei/worldSettings.cfg
-config/jeresources/world-gen.json
+config/jeresources/world-gen*.json
 config/thaumicjei_itemstack_aspects.json
 
 # File extensions we don't want in git
