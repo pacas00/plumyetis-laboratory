@@ -1,0 +1,54 @@
+{
+	"dependencies": "appliedenergistics2",
+	"populate": {
+        "quartz_ore": {
+            "enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "appliedenergistics2:quartz_ore"
+				},
+                "material": "minecraft:stone",
+                "chunk-chance": 1,
+				"cluster-size": 8
+			},
+			"cluster-count": 4,
+			"min-height": 0,
+			"max-height": 60,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0,
+					-11325
+				]
+			}
+        },
+        "charged_quartz_ore": {
+            "enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "appliedenergistics2:charged_quartz_ore"
+				},
+                "material": "minecraft:stone",
+                "chunk-chance": 1,
+				"cluster-size": 6
+			},
+			"cluster-count": 2,
+			"min-height": 0,
+			"max-height": 40,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0,
+					-11325
+				]
+			}
+        }
+    }
+}
+        
