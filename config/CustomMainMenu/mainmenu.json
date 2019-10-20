@@ -129,7 +129,7 @@
             "action" : 
             {
                 "type" : "connectToServer",
-                "ip" : "plumyeti.ddns.net"
+                "ip" : "minecraft.plumyeti.com"
             }
         },
 		
