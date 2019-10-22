@@ -1,23 +1,43 @@
+# Dev Env
+.vscode/
+
+# Modcraft folders / files we dont want in git
 mods/
 resourcepacks/
 saves/
+logs/
+local/
+journeymap/
+astralsorcery/
+.mixin.out/
 .curseclient
 manifest.json
 minecraftinstance.json
 modlist.html
-*.jar
-*.dll
-logs/
-journeymap/
 .ReAuth.cfg
-crafttweaker.log
+BotaniaVars.dat
 options.txt
 patchouli_data.json
 servers.dat
 usercache.json
 usernamecache.json
-.mixin.out/
-crash-reports/
-local/
-BotaniaVars.dat
-astralsorcery/
+
+# Specific files we don't want in git
+config/AppliedEnergistics2/aerecipes
+config/AppliedEnergistics2/items.csv
+config/jei/bookmarks.ini
+config/jei/worldSettings.cfg
+config/jeresources/world-gen*.json
+config/thaumicjei_itemstack_aspects.json
+
+# File extensions we don't want in git
+*.jar
+*.dll
+*.log
+
+# Dev Mod Configs
+config/InvTweaks*
+config/tellme.cfg
+config/tellme/
+
+
