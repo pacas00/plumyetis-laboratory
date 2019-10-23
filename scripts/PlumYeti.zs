@@ -12,3 +12,4 @@ recipes.addShaped(<minecraft:name_tag>, [[<minecraft:lead>, <minecraft:paper>, <
 recipes.addShaped(<appliedenergistics2:material:5> * 2, [[<libvulpes:productingot:3>, <libvulpes:productingot:3>]]);
 mods.enderio.SagMill.removeRecipe(<minecraft:sand>);
 mods.enderio.SagMill.addRecipe([<appliedenergistics2:material:5>, <appliedenergistics2:material:5>], [0.5, 0.25], <minecraft:sand>, "MULTIPLY_OUTPUT");
+mods.enderio.AlloySmelter.addRecipe(<thaumcraft:quicksilver>, [<thermalfoundation:material:866>]);
