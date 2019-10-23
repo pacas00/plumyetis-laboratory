@@ -41,3 +41,15 @@ config/tellme.cfg
 config/tellme/
 
 
+# More Exclusions
+config/biomesoplenty/biomes/defaults/
+config/brandon3055/ProjectIntelligence/projectintelligence.xml
+config/enderio/recipes/
+!config/enderio/recipes/user/
+config/teamreborn/configData.nbt
+config/opencomputers/*.recipes
+config/splash.properties
+config/AppliedEnergistics2/CustomRecipes.cfg
+config/AppliedEnergistics2/VersionChecker.cfg
+config/biomesoplenty/biome_ids.json
+config/enderio/painter_paint_sources_core.xml
