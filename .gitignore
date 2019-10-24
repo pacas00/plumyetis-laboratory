@@ -39,5 +39,7 @@ config/thaumicjei_itemstack_aspects.json
 config/InvTweaks*
 config/tellme.cfg
 config/tellme/
+config/worldstripper.cfg
+crash-reports/*
 
 
