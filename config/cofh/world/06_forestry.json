@@ -21,8 +21,7 @@
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [
-					0,
-					-11325
+					0
 				]
 			}
         }
