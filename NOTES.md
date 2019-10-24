@@ -3,17 +3,17 @@
 Enabled in 1.1.1 | Removed mod ore gen | Added ore gen to COFH | Mod | Notes
 ---------------- | ------------------- | --------------------- | --- | -----
 &#9745; | &#9744; | &#9744; | Advanced Rocketry | Only enabled for dimensions it creates
-&#9745; | &#9744; | &#9744; | Applied Energistics2 | features.world.CertusQuartzWorldGen
+&#9745; | &#9745; | &#9745; | Applied Energistics2 | features.world.CertusQuartzWorldGen
 &#9745; | &#9744; | &#9744; | COFH - World | Should use this as main generator
-&#9745; | &#9744; | &#9744; | Extreme Reactors | Only generates in overworld
-&#9745; | &#9744; | &#9744; | Forestry | (common.cfg) Generates apatite / copper / tin in all dims
+&#9745; | &#9745; | &#9745; | Extreme Reactors | Only generates in overworld
+&#9745; | &#9745; | &#9745; | Forestry | (common.cfg) Generates apatite / copper / tin in all dims
 &#9745; | &#9744; | &#9744; | RailCraft | Unknown if it will effect - need to worldgen.generate.skyGen = true to understand
-&#9745; | &#9744; | &#9744; | Actually Additions | OreGen needs to have the dim's whitelisted
+&#9745; | &#9745; | &#9745; | Actually Additions | OreGen needs to have the dim's whitelisted
 &#9745; | &#9744; | &#9744; | AstralSorcery | Generates only in dim 0
 &#9745; | &#9744; | &#9744; | cyclic_ores | Generates ores - TBD
 &#9745; | &#9744; | &#9744; | Embers | Current BLACKLIST 0 -1 1
 &#9745; | &#9744; | &#9744; | evilcraft | dark ore gen
-&#9745; | &#9744; | &#9744; | immersiveengineering | oreDimBlacklist
+&#9745; | &#9745; | &#9745; | immersiveengineering | oreDimBlacklist
 &#9745; | &#9744; | &#9744; | oregen | remove
 &#9745; | &#9744; | &#9744; | quark | set only to overworld
 
