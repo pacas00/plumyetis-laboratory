@@ -1,20 +1,23 @@
+# Dev Env
+.vscode/
+
 # Modcraft folders / files we dont want in git
-.curseclient
-.mixin.out/
-.ReAuth.cfg
-astralsorcery/
-BotaniaVars.dat
-journeymap/
-local/
+mods/
+resourcepacks/
+saves/
 logs/
+local/
+journeymap/
+astralsorcery/
+.mixin.out/
+.curseclient
 manifest.json
 minecraftinstance.json
 modlist.html
-mods/
+.ReAuth.cfg
+BotaniaVars.dat
 options.txt
 patchouli_data.json
-resourcepacks/
-saves/
 servers.dat
 usercache.json
 usernamecache.json
@@ -37,7 +40,6 @@ config/InvTweaks*
 config/tellme.cfg
 config/tellme/
 config/worldstripper.cfg
-crash-reports/
+crash-reports/*
 
-# Dev Env
-.vscode/
+
