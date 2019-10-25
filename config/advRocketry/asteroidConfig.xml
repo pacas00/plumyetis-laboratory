@@ -1,11 +1,71 @@
+<!-- Asteroid attibutes explained 
+	distance: Minimum viewable distance observatory musthave to discover asteroid
+	mass: Total blocks asteroid must have
+	massVariability: (between 0 and 1) Randomness of the astroid size (size = mass  0.5 * mass * massVariability)
+	richness: (between 0 and 1) ratio of ore to rock content, 1 = 100% ore
+	richnessVariability: (between 0 and 1) Randomness of the richness
+	probability: Probability relative to other asteroids of this asteroid showing up (probabilities are normalized between all asteroids)
+	timeMultiplier: Multiplier on the time needed to mine the asteroid.
+-->
+
+<!-- ore attributes explained
+	itemStack: unlocaillized name of a block or item optionally followed by a space and meta value (example "minecraft:coal 1" would be charcoal, coal metadata 1)
+	chance: the chance of that ore being mined compared to other stacks in the astroid
+-->
+
+<!-- Observatory Distances
+
+Motor/Glass = 35
+Motor/Lense = 50
+Adv Motor/Lense = 75
+Enh Motor/Lense = 125
+Elite Motor/Lense = 200
+
+-->
+
+<!-- Motor Costs
+Motor = 16x Copper / 5x Steel
+Adv Motor = 16x Gold / 5x Steel
+Enhanced Motor = 16x Aluminum / 5x Titanium
+Elite Motor = 16x Titanium / 5x Iridium
+
+-->
+
 <Asteroids>
 	<asteroid name="Small Asteroid" distance="10" mass="100" massVariability="0.5" minLevel="0" probability="10" richness="0.2" richnessVariability="0.5">
 		<ore itemStack="minecraft:iron_ore" chance="15" />
 		<ore itemStack="minecraft:gold_ore" chance="10" />
 		<ore itemStack="minecraft:redstone_ore" chance="10" />
+		<ore itemStack="thermalfoundation:ore 6" chance="10" />
+	</asteroid>
+
+	<!-- AR -->
+	<asteroid name="Titanium Enriched asteroid" distance="75" mass="50" massVariability="0.5" minLevel="0" probability="0.75" richness="0.2" richnessVariability="0.3">
+		<ore itemStack="minecraft:iron_ore" chance="25" />
+		<ore itemStack="libvulpes:ore0 8" chance="5" /> <!-- Rutile Ore == Titanium-->
 	</asteroid>
 	<asteroid name="Iridium Enriched asteroid" distance="100" mass="25" massVariability="0.5" minLevel="0" probability="0.75" richness="0.2" richnessVariability="0.3">
 		<ore itemStack="minecraft:iron_ore" chance="25" />
 		<ore itemStack="libvulpes:ore0 10" chance="5" />
+	</asteroid>
+
+	<!-- Railcraft -->
+	<asteroid name="Railcraft asteroid" distance="50" mass="100" massVariability="0.5" minLevel="0" probability="0.75" richness="0.2" richnessVariability="0.3">
+		<ore itemStack="railcraft:ore_metal 5" chance="25" /> <!-- Zinc -->
+		<ore itemStack="thermalfoundation:ore 5" chance="50" /> <!-- Nickel -->
+		<ore itemStack="thermalfoundation:ore 2" chance="25" /> <!-- Silver -->
+	</asteroid>
+	
+
+	<!-- Draconic Evolution - Requires and enhanced motor or higher-->
+	<asteroid name="Small Draconic Evolution asteroid" distance="125" mass="50" massVariability="0.5" minLevel="0" probability="0.55" richness="0.2" richnessVariability="0.3">
+		<ore itemStack="draconicevolution:draconium_ore" chance="100" />
+	</asteroid>
+	<asteroid name="Large Draconic Evolution asteroid" distance="175" mass="75" massVariability="0.5" minLevel="0" probability="0.55" richness="0.2" richnessVariability="0.3">
+		<ore itemStack="draconicevolution:draconium_ore" chance="100" />
+	</asteroid>
+	<asteroid name="Pulsing Draconic Evolution asteroid" distance="200" mass="75" massVariability="0.5" minLevel="0" probability="0.55" richness="0.2" richnessVariability="0.3" timeMultiplier="1.25">
+		<ore itemStack="draconicevolution:draconium_ore" chance="95" />
+		<ore itemStack="draconicevolution:draconic_block" chance="5" />
 	</asteroid>
 </Asteroids>
