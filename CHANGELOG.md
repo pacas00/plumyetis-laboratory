@@ -44,7 +44,7 @@
 - Refined Storage: Requestify
 - Reborn Storage
 - Statues 2.4
-- Simply Jetpacks
+- Simply Jetpacks 2
 - TOP Addons
 
 
