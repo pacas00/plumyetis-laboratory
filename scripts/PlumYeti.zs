@@ -6,7 +6,6 @@ recipes.remove(<appliedenergistics2:material:53>);
 recipes.remove(<extracells:terminal.fluid.wireless>);
 recipes.remove(<extracells:terminal.universal.wireless>.withTag({modules: 23 as byte}));
 recipes.remove(<extracells:terminal.universal.wireless>.withTag({power: 1600000.0, modules: 23 as byte}));
-recipes.remove(<extracells:terminal.gas.wireless>);
 recipes.remove(<extracells:terminal.universal.wireless>);
 recipes.addShaped(<minecraft:name_tag>, [[<minecraft:lead>, <minecraft:paper>, <minecraft:paper>]]);
 recipes.addShaped(<appliedenergistics2:material:5> * 2, [[<libvulpes:productingot:3>, <libvulpes:productingot:3>]]);
