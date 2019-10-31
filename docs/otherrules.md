@@ -1,3 +1,7 @@
+---
+title: Other Rules
+meta: serverrules.html
+---
 # Other Rules
 * No begging
  * Asking nicely once or twice is acceptable
