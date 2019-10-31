@@ -1,6 +1,6 @@
 ---
 title: Rules for Chat
-meta: https://bvierra.github.io/plumyetis-laboratory/modrules.html
+meta: modrules.html
 ---
 # Rules for Chat
 * No spamming.
