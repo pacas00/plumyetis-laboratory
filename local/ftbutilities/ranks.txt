@@ -1,0 +1,24 @@
+// For more info visit https://latvian.dev/mods/ftbutilities/wiki/ranks/
+
+[player is default_player_rank]
+command.ftbutilties.home: false
+ftbutilities.claims.max_chunks: 30
+ftbutilities.chunkloader.max_chunks: 0
+
+[regular extends player]
+command.ftbutilties.home: true
+ftbutilities.claims.max_chunks: 60
+ftbutilities.chunkloader.max_chunks: 20
+ftbutilities.homes.max: 1
+
+[streamer extends regular]
+ftbutilities.claims.max_chunks: 100
+ftbutilities.chat.name_format: "<&2S &f{name}&r>" 
+ftbutilities.chunkloader.max_chunks: 40
+ftbutilities.homes.max: 10
+
+[admin extends streamer is default_op_rank]
+command: true
+ftbutilities.claims.max_chunks: 1000
+ftbutilities.chunkloader.max_chunks: 100
+ftbutilities.chat.name_format: "<&4OP &2{name}&r>" 
