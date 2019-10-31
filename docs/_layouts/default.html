@@ -2,6 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    {% if page.meta %}
+      <meta http-equiv="refresh" content="20;URL='/{{ page.meta }}'" />  
+    {% endif %}
     <title>{{ page.title }}</title>
   </head>
   <body>
