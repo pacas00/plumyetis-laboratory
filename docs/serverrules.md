@@ -1,3 +1,7 @@
+---
+title: Server Rules
+meta: chatrules.html
+---
 # Server Rules
 * Respect others.
 * No advertising or mentioning other servers.
