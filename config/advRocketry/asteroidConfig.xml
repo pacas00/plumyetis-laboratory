@@ -49,14 +49,6 @@ Elite Motor = 16x Titanium / 5x Iridium
 		<ore itemStack="libvulpes:ore0 10" chance="5" />
 	</asteroid>
 
-	<!-- Railcraft -->
-	<asteroid name="Railcraft asteroid" distance="50" mass="100" massVariability="0.5" minLevel="0" probability="0.75" richness="0.2" richnessVariability="0.3">
-		<ore itemStack="railcraft:ore_metal 5" chance="25" /> <!-- Zinc -->
-		<ore itemStack="thermalfoundation:ore 5" chance="50" /> <!-- Nickel -->
-		<ore itemStack="thermalfoundation:ore 2" chance="25" /> <!-- Silver -->
-	</asteroid>
-	
-
 	<!-- Draconic Evolution - Requires and enhanced motor or higher-->
 	<asteroid name="Small Draconic Evolution asteroid" distance="125" mass="50" massVariability="0.5" minLevel="0" probability="0.55" richness="0.2" richnessVariability="0.3">
 		<ore itemStack="draconicevolution:draconium_ore" chance="100" />
