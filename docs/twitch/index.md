@@ -1,5 +1,5 @@
 <iframe
-    src="https://player.twitch.tv/?dethridge"
+    src="https://player.twitch.tv/?dethridge&html5"
     height="600"
     width="480"
     frameborder="0"
