@@ -56,3 +56,6 @@ config/biomesoplenty/biome_ids.json
 config/enderio/painter_paint_sources_core.xml
 config/brandon3055/contributors.json
 config/ChanceCubes/CustomRewards/Resourcepack/CustomSounds-Resourcepack.zip
+
+!mods/mcef-1.12.2-*.jar
+!mods/webdisplays-1.12.2-*.jar
