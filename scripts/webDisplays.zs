@@ -1,0 +1,11 @@
+recipes.remove(<webdisplays:screen>);
+recipes.remove(<webdisplays:screencfg>);
+recipes.remove(<webdisplays:minepad>);
+recipes.remove(<webdisplays:craftcomp>);
+recipes.remove(<webdisplays:craftcomp:1>);
+recipes.remove(<webdisplays:craftcomp:2>);
+recipes.remove(<webdisplays:craftcomp:3>);
+recipes.remove(<webdisplays:craftcomp:4>);
+recipes.remove(<webdisplays:craftcomp:5>);
+recipes.remove(<webdisplays:craftcomp:6>);
+recipes.remove(<webdisplays:craftcomp:7>);

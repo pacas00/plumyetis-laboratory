@@ -59,3 +59,12 @@ config/ChanceCubes/CustomRewards/Resourcepack/CustomSounds-Resourcepack.zip
 
 !mods/mcef-1.12.2-*.jar
 !mods/webdisplays-1.12.2-*.jar
+*.pak
+jcef_helper.exe
+natives_blob.bin
+snapshot_blob.bin
+MCEFCache/Visited Links
+locales.zip
+icudtl.dat
+mcef2.json
+v8_context_snapshot.bin
