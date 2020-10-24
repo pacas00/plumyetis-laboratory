@@ -1,0 +1,74 @@
+# Dev Env
+.vscode/
+
+# Modcraft folders / files we dont want in git
+mods/
+resourcepacks/
+saves/
+logs/
+journeymap/
+astralsorcery/
+.mixin.out/
+.curseclient
+manifest.json
+minecraftinstance.json
+modlist.html
+.ReAuth.cfg
+BotaniaVars.dat
+options.txt
+patchouli_data.json
+servers.dat
+usercache.json
+usernamecache.json
+
+# Specific files we don't want in git
+config/AppliedEnergistics2/aerecipes
+config/AppliedEnergistics2/items.csv
+config/jei/bookmarks.ini
+config/jei/worldSettings.cfg
+config/jeresources/world-gen-old*.json
+config/thaumicjei_itemstack_aspects.json
+
+# File extensions we don't want in git
+*.jar
+*.dll
+*.log
+
+# Dev Mod Configs
+config/InvTweaks*
+config/tellme.cfg
+config/tellme/
+config/worldstripper.cfg
+crash-reports/*
+
+
+# More Exclusions
+config/biomesoplenty/biomes/defaults/
+config/brandon3055/ProjectIntelligence/projectintelligence.xml
+config/enderio/recipes/
+!config/enderio/recipes/user/
+config/teamreborn/configData.nbt
+config/opencomputers/*.recipes
+config/splash.properties
+config/AppliedEnergistics2/CustomRecipes.cfg
+config/AppliedEnergistics2/VersionChecker.cfg
+config/biomesoplenty/biome_ids.json
+config/enderio/painter_paint_sources_core.xml
+config/brandon3055/contributors.json
+config/ChanceCubes/CustomRewards/Resourcepack/CustomSounds-Resourcepack.zip
+
+!mods/mcef-1.12.2-*.jar
+!mods/webdisplays-1.12.2-*.jar
+*.pak
+jcef_helper.exe
+natives_blob.bin
+snapshot_blob.bin
+MCEFCache/Visited Links
+locales.zip
+icudtl.dat
+mcef2.json
+v8_context_snapshot.bin
+MCEFCache/
+stall-reports/
+config/worldedit/
+config/wecui3.yml

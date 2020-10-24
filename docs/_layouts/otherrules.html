@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    {% if page.meta %}
+      <meta http-equiv="refresh" content="40;URL='https://bvierra.github.io/plumyetis-laboratory/{{ page.meta }}'" />  
+    {% endif %}
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+      {{ content }}
+  </body>
+</html>
